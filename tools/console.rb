@@ -1,4 +1,6 @@
 require_relative '../config/environment.rb'
+require 'rubygems'
+require 'active_record'
 
 def reload
   load 'config/environment.rb'
